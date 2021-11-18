@@ -1,0 +1,10 @@
+body {
+  background-color: black;
+}
+
+.tudo {
+  background-color: rgb(77, 16, 128);
+  border-radius: 5px;
+  text-align: center;
+  padding: 200px;
+}

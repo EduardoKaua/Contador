@@ -1,21 +1,15 @@
-const btnsubir = document.getElementById("btn1"); 
-const  btndescer = document.getElementById("btn3");
-const btnzerar = document.getElementById("btn2");
-const span = document.getElementById ("zero");
+const tt = document.getElementById("number")
 
+let num = 0
 
-let zero = 0;
+function mais () {
+    tt.innerText = ++num
+}
 
+function menos () {
+    tt.innerText = --num
+}
 
-btnsubir.addEventListener("click", function(){
-    span.innerHTML = ++zero;
-});
-
-btndescer.addEventListener("click" , function() {
-    span.innerHTML = --zero;
-});
-
-    btnzerar.addEventListener("click" , function(){
-        span.innerHTML = zero = 0;
-    });
-
+function reset () {
+    tt.innerText = num = 0
+}
