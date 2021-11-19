@@ -4,7 +4,8 @@ body {
 
 .tudo {
   background-color: rgb(77, 16, 128);
-  border-radius: 5px;
+  border-style: 1000px;
+  border-radius: 10px;
   text-align: center;
   padding: 200px;
 }
