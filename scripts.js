@@ -1,5 +1,7 @@
 const tt = document.getElementById("number")
 
+
+
 let num = 0
 
 function mais () {
@@ -12,4 +14,8 @@ function menos () {
 
 function reset () {
     tt.innerText = num = 0
+}
+
+function vezes () {
+    number.innerText = parseInt()
 }
